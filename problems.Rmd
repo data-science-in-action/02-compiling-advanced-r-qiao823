@@ -1,0 +1,32 @@
+---
+title: "problems"
+author: "qiao shujing"
+date: "2020/3/20"
+output: html_document
+problem 1:
+failed to install "emo"packages
+the following commanding can be executed.
+$git config --global http.sslBackend"openssl"
+$ git config --global http.sslCAInfo [path to .pem file]
+
+
+problem 2:
+lack some necessary packages, such as,bookdown,lobstr,bench.
+the following commanding can be executed.
+install.packages(" ")
+
+
+problem 3:
+latex fail to compile...
+the following commanding can be executed.
+update.packages(ask=FALSE,checkBuilt=TRUE)
+tinytex::tlmgr update()
+
+problem 4:
+Quitting from lines 223-235   (Introduciton.Rmd)
+Change line 224 to:
+contributors <- read.csv("contributors.csv", stringsAsFactors = FALSE,encoding = "UTF-8")
+
+problem 5:
+Fonts cannot be found
+download "Inconsolate"和 "Andale Mono"
